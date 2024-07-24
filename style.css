@@ -1,4 +1,111 @@
-* {
-    font-family: "Roboto", "Roboto Condensed". Helvetica;
+body {
+    font-family: "Roboto", "Roboto Condensed", Helvetica;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
 }
 
+.header,
+.hero{
+    background-color: #1F2937;
+    display: flex;
+}
+
+.header {
+    display: flex;
+    height: 8vh;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    text-decoration: none;
+    font-size: 3vh;
+    font-weight: 900;
+    color: #F9FAF8;
+    padding-left: 10vw;
+}
+
+.navLinks {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5vh;
+    gap: 2vw;
+    padding-right: 5vw;
+}
+
+.navLinks li {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navLinks a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+.hero {
+    display: flex;
+    color: #F9FAF8;
+    height: 35vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero .content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-shrink: 1;
+    gap: 15vw;
+}
+
+.leftContent {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 1;
+    flex-basis: 30vw;
+}
+
+.leftContent h1 {
+    font-weight: 800;
+    font-size: 3.5vw;
+    margin: 0;
+}
+
+.leftContent p {
+    max-width: 28vw;
+    font-size: 2vw;
+    margin: 1vh;
+}
+
+@media screen and (max-width: 500px) {
+.leftContent h1 {
+    font-size: 3vh;
+}
+.leftContent p {
+    font-size: 1vh;
+}
+.hero .content {
+    gap: 5vw
+}
+
+}
+
+
+.showcase {
+
+}
+
+.inspiration {
+
+}
+
+.signup {
+
+}
+
+.footer {
+
+}
