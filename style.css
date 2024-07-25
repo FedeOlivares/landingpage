@@ -214,7 +214,7 @@ body {
     flex-direction: column;
     justify-items: center;
     align-items: center;
-    padding: 10vw;
+    padding: 10vw 10vw 5vw 10vw;
 }
 
 .quote {
