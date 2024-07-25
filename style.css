@@ -208,8 +208,36 @@ body {
 }
 
 .inspiration {
-
+    background-color: #E5E7EB;
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    padding: 10vw;
 }
+
+.quote {
+    font-size: 2.5vh;
+    font-weight: 400;
+}
+
+.author {
+    margin-top: 2vh;
+    font-size: 1.5vh;
+}
+
+@media (min-width: 500px) {
+    .quote {
+        font-size: 2.5vw;
+    }
+
+    .author {
+        margin-top: 2vh;
+        font-size: 1.5vw;
+    }
+}
+
 
 .signup {
 
