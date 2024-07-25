@@ -21,18 +21,31 @@ body {
 
 .logo {
     text-decoration: none;
-    font-size: 3vh;
+    font-size: 4.5vw;
     font-weight: 900;
     color: #F9FAF8;
-    padding-left: 10vw;
+    padding-left: 8vw;
+}
+
+@media screen and (min-width: 500px) {
+    .logo {
+        font-size: 3.5vh;
+        padding-left: 10vw;
+    }
 }
 
 .navLinks {
     display: flex;
     flex-direction: row;
-    font-size: 1.5vh;
+    font-size: 3.5vw;
     gap: 2vw;
     padding-right: 5vw;
+}
+
+@media screen and (min-width: 500px) {
+    .navLinks {
+        font-size: 2.5vh;
+    }
 }
 
 .navLinks li {
@@ -48,9 +61,15 @@ body {
 .hero {
     display: flex;
     color: #F9FAF8;
-    height: 35vh;
+    height: 25vh;
     justify-content: center;
     align-items: center;
+}
+
+@media screen and (min-width: 500px) {
+    .hero {
+        height: 38vh
+    }
 }
 
 .hero .content {
@@ -58,7 +77,13 @@ body {
     justify-content: space-between;
     flex-direction: row;
     flex-shrink: 1;
-    gap: 15vw;
+    gap: 5vw;
+}
+
+@media screen and (min-width: 500px) {
+    .hero .content {
+        gap: 15vw;
+    }
 }
 
 .leftContent {
@@ -70,28 +95,26 @@ body {
 
 .leftContent h1 {
     font-weight: 800;
-    font-size: 3.5vw;
+    font-size: 3.5vh;
     margin: 0;
 }
 
 .leftContent p {
     max-width: 28vw;
-    font-size: 2vw;
+    font-size: 1.5vh;
     margin: 1vh 0;
 }
 
-@media screen and (max-width: 500px) {
-.leftContent h1 {
-    font-size: 3vh;
-}
-.leftContent p {
-    font-size: 1vh;
-}
-.hero .content {
-    gap: 5vw
+@media (min-width: 500px) {
+    .leftContent h1 {
+        font-size: 3.5vw;
+    }
+
+    .leftContent p {
+        font-size: 2vw;
+    }
 }
 
-}
 
 
 .showcase {
