@@ -108,8 +108,8 @@ body {
 
 .leftContent {
     display: flex;
+    justify-content: center;
     flex-direction: column;
-    flex-shrink: 1;
     flex-basis: 30vw;
 }
 
@@ -127,14 +127,37 @@ body {
 
 @media (min-width: 500px) {
     .leftContent h1 {
-        font-size: 3vw;
+        font-size: 4vh;
     }
 
     .leftContent p {
-        font-size: 2vw;
+        font-size: 3vh;
     }
 }
 
+.contact { 
+    background-color: #3882F6;
+    font-size: 1.7vw;
+    font-weight: 500;
+    max-width: 12vw;
+    border-radius: 1vw;
+    border: none;
+    box-shadow: 0.25vh 0.25vh 0.25vh rgba(134, 143, 170, 0.274);
+}
+
+@media (min-width: 500px) and (max-width: 799px) {
+    .contact {
+        max-width: 14vh;
+    }   
+}
+
+@media (min-width: 800px) {
+    .contact {
+        font-size: 2vh;
+        max-width: 15vh;
+    }
+    
+}
 
 
 .showcase {
